@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body >
+        <header>
+            <h1 class="tebal">pesan berantai generator</h1>
+        </header>
+        <main>
+            <div class="input">
+                <div class="inputUser">
+                    <label class="medium">Input</label>
+                    <input id="masukan" placeholder="your text goes here...">
+                </div>
+                <div class="select">
+                    <label class="medium">
+                        Pilih tipe 
+                    </label>
+                    <select required id="option">
+                        <option selected disabled>pilih pesan berantaimu</option>
+                        <option value="1">hai kak namaku zidan</option>
+                        <option value="2">pinjol</option>
+                    </select>
+                    <button onCLick="generate()" id="btn">generate</button>
+                    <button class="btn" id="salin" onClick="copy()">salin teks</button>
+                </div>
+            </div>
+            <div class="output">
+                <textarea type="text" id="hasil"></textarea>
+            </div>
+            <script type="text/javascript" src="main.js"></script>
+        </main>
+    </body>
+</html>
