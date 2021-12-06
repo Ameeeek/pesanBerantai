@@ -75,3 +75,9 @@ main {
     border-bottom: 1px solid #757575;
     background-color: #212121;
 }
+@media (max-width: 858px){
+    main{
+        display:flex;
+        flex-direction: column;
+    }
+}
