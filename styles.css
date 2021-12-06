@@ -56,9 +56,11 @@ label {
     display: flex;
     flex-direction: column;
 }
+.select select{
+    width: 12rem;
+}
 .select {
     display: flex;
-
     flex-direction: column;
 }
 main {
@@ -69,6 +71,7 @@ main {
 .inputUser input {
     color: white;
     border-radius: 4px;
+    width: 10rem;
     padding: 0.5rem;
     outline: none;
     border: 2px solid grey;
@@ -79,5 +82,9 @@ main {
     main{
         display:flex;
         flex-direction: column;
+    }
+    .output textarea{
+        display:flex;
+        justify-content:center;
     }
 }
